@@ -57,8 +57,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:text="@string/credits_and_third_party_apps" />
+            android:text="Vortex PS3 Credits" />
+        
 
+        
         <TextView
             android:id="@+id/TVCreditsAndThirdPartyApps"
             android:layout_width="wrap_content"
