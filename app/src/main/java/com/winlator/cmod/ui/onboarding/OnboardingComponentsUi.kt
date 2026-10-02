@@ -340,7 +340,8 @@ private fun SourceSelector(local: () -> Unit) {
         border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant)
     ) {
         Row(Modifier.height(56.dp)) {
-            SourcePart(Icons.Outlined.Dns, "Winlator servers", true, {}, Modifier.weight(1f))
+            SourcePart(Icons.Outlined.Dns, "Vortex servers", true, {}, Modifier.weight(1f))
+            
             SourcePart(Icons.Outlined.Folder, "Local package", false, local, Modifier.weight(1f))
         }
     }
