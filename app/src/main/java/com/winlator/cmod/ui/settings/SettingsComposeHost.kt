@@ -226,7 +226,8 @@ private fun SettingsScreen(model: SettingsModel, callbacks: SettingsCallbacks) {
             }
 
             item("paths-title") { SectionTitle("PATH SETTINGS") }
-            item("winlator-path") { NavigationRow(Icons.Outlined.Storage, "Winlator Path", model.winlatorPath, callbacks::onChooseWinlatorPath) }
+            item("winlator-path") { NavigationRow(Icons.Outlined.Storage, "Vortex Path", model.winlatorPath, callbacks::onChooseWinlatorPath) }
+                    
             item("shortcut-path") { NavigationRow(Icons.Outlined.FolderOpen, "Shortcut Export Path", model.shortcutPath, callbacks::onChooseShortcutPath) }
 
             item("game-saves-title") { SectionTitle("GAME SAVES") }
